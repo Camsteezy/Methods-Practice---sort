@@ -1,0 +1,7 @@
+function secondHighAndSecondLow(arr){
+  let sorted = arr.sort((a,b)=> a - b)
+  
+  alert ( sorted[1] + sorted[sorted.length - 2])
+}
+
+secondHightAndSecondLow()
